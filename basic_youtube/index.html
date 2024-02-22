@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH TUBE</title>
+    <link rel="stylesheet" href="style.css">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <nav class="mx-5 my-4 navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="nav_img">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="m-auto">
+                <button class="btn  btn-secondary px-3">Sort by View</button>
+              </div>
+            
+            <form class="d-flex">
+              <a  href="blog.html" class="btn btn-danger">Blog</a>
+            </form>
+          </div>
+        </div>
+
+    </nav>
+    <div class="out mx-5">
+    </div>
+
+    <div class="catagory my-4 mx-4">
+    
+      <button onclick="loadALLData()" class=" button  active  mx-3" >All</button>
+      <button onclick="loadMusicData() " class=" button  mx-3" >Music</button>
+      <button onclick="loadComedyData()" class=" button  mx-3" >Comedy</button>
+      <button onclick="loadDrawingData()" class=" button  mx-3" >Drawing</button>
+    </div>
+
+    <div class="video_container  mx-5" id="container">
+
+    </div>
+    
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

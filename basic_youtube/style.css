@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.bg
+{
+    background-color: grey;
+
+}
+.nav_img
+{
+    
+    background-image: url(/Logo.png);
+    height: 50px;
+    width: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.out
+{
+    
+    height: 2px;
+    width: 95vw;
+    background-color: black;
+}
+
+.catagory
+{
+    
+    display: flex;
+    justify-content: center;
+    margin-top:10px ;
+
+}
+.video
+{
+    min-height: 250px;
+    height: auto;
+    padding:20px;
+    box-shadow: 0px 0px 1px black;
+    border-radius: 5px;
+    width: 21vw;    
+
+
+}
+.card-img
+
+{
+
+    padding-top: 3px;
+    padding-bottom: 5px;
+    height:200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    width:100%;
+
+
+}
+
+.video_container
+{
+    display: grid;
+    margin-top: 100px;
+    margin: 25px;
+    padding-bottom: 10px;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+
+
+}
+
+.thumb
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+.name
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.c-img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.card-body
+{
+    display: flex;
+    gap: 30px;
+}
+
+.button
+{
+    border: none;
+    padding: 7px 15px;
+}
+
+span
+{
+    font-weight: 700;
+}
+
+
+.button.active{
+
+    color: aliceblue;
+    background-color:#ff1f3d;
+}
+
+.question
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-image: url(/nick-fewings-JEqXTm5dQ8c-unsplash.jpg);
+}
+
+@media (max-width:500px){
+    .video_container
+    {
+        display: grid;
+        margin-top: 100px;
+        margin: 25px;
+        padding-bottom: 10px;
+        grid-gap: 30px;
+        grid-template-columns:auto;
+        justify-items: center;
+
+
+    }    
+    .video
+    {
+        min-height: 250px;
+        height: auto;
+        padding:20px;
+        box-shadow: 0px 0px 1px black;
+        border-radius: 5px;
+        width: 90vw;    
+    
+    
+    }
+}
